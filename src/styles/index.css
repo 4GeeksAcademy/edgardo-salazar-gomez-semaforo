@@ -1,11 +1,23 @@
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+.counter-holder{
+    background-color: whitesmoke;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 1rem;
+}
+.digito{
+    color: black;
+    font-weight: bold;
+    font-size: 4rem;
+    padding: 0.5rem;
+}
+.fondo-contador {
+  background-color: orange;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+.container {
+ color: aliceblue;   
+}
