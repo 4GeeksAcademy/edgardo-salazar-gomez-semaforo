@@ -56,3 +56,16 @@
   position: relative;
   bottom: 0;
 }
+
+
+@keyframes blink {
+  0%, 50%, 100% { opacity: 1; }
+  25%, 75% { opacity: 0.3; }
+}
+
+/* Aplica la animación solo a la luz activa */
+.glow {
+  opacity: 1;
+  box-shadow: 0 0 30px 10px currentColor;
+  animation: blink 1s infinite; /* 👈 hace que parpadee */
+}
